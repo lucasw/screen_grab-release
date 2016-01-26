@@ -1,0 +1,12 @@
+Source: ros-jade-screen-grab
+Section: misc
+Priority: extra
+Maintainer: Lucas Walter <lucasw_backwards@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-cv-bridge, ros-jade-dynamic-reconfigure, ros-jade-image-transport, ros-jade-nodelet, ros-jade-roscpp, ros-jade-roslint, ros-jade-sensor-msgs, ros-jade-std-msgs
+Homepage: https://github.com/lucasw/screengrab_ros
+Standards-Version: 3.9.2
+
+Package: ros-jade-screen-grab
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-dynamic-reconfigure, ros-jade-nodelet, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-std-msgs
+Description: Publish a screen capture as an Image
